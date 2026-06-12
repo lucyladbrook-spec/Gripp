@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en-GB" data-audience="teacher">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Gripp — Get a grip on learning</title>
+  <meta name="description" content="KS1 curriculum resources, interactive activities and lesson ideas for teachers, parents and children.">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:wght@600;700;800&family=Atkinson+Hyperlegible:ital,wght@0,400;0,700;1,400&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="gripp.css">
+</head>
+<body>
+
+  <header class="wrap site-head">
+    <a class="wordmark" href="index.html">Gripp<span class="dot">.</span></a>
+  </header>
+
+  <section class="hero wrap">
+    <h1>Get a <span class="accent">gripp</span> on learning.</h1>
+    <p class="lede">Curriculum resources, activities and ideas for KS1 — shaped around whoever's looking.</p>
+
+    <div class="audience-block">
+      <span class="audience-label" id="audience-label">I am a…</span>
+      <div class="audience-toggle" role="group" aria-labelledby="audience-label" data-pos="0">
+        <span class="slider" aria-hidden="true"></span>
+        <button type="button" data-audience="teacher" aria-pressed="true">Teacher</button>
+        <button type="button" data-audience="parent" aria-pressed="false">Parent</button>
+        <button type="button" data-audience="student" aria-pressed="false">Pupil</button>
+      </div>
+      <p class="audience-hint" aria-live="polite"></p>
+    </div>
+  </section>
+
+  <main class="wrap">
+    <nav class="tiles" aria-label="Subjects">
+      <a class="tile tile-maths" href="maths.html" data-subject="maths">
+        <span class="emoji" aria-hidden="true">🔢</span>
+        <h2>Maths</h2>
+        <p></p>
+        <span class="go">Open Maths →</span>
+      </a>
+      <a class="tile tile-english" href="english.html" data-subject="english">
+        <span class="emoji" aria-hidden="true">📖</span>
+        <h2>English</h2>
+        <p></p>
+        <span class="go">Open English →</span>
+      </a>
+      <a class="tile tile-science" href="science.html" data-subject="science">
+        <span class="emoji" aria-hidden="true">🔬</span>
+        <h2>Science</h2>
+        <p></p>
+        <span class="go">Open Science →</span>
+      </a>
+      <a class="tile tile-geography" href="geography.html" data-subject="geography">
+        <span class="emoji" aria-hidden="true">🌍</span>
+        <h2>Geography</h2>
+        <p></p>
+        <span class="go">Open Geography →</span>
+      </a>
+    </nav>
+  </main>
+
+  <footer class="site-foot">
+    <div class="wrap">
+      <p><strong>Gripp</strong> · Made by a teacher, for classrooms and kitchen tables. Some links on this site are affiliate links.</p>
+    </div>
+  </footer>
+
+  <script src="content.js"></script>
+  <script src="gripp.js"></script>
+</body>
+</html>
